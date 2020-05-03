@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist-outdir",
+    "target": "ES5",
+    "removeComments": true
+  },
+  "include": [
+    "src/**/*",
+    "src2/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    ".vscode"
+  ]
+}
