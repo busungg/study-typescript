@@ -35,12 +35,12 @@ console.log(`binary = ${binary}`);
 /**
  * enum은 number에서 확장된 타입으로 첫 번째 Enum 요소에는 숫자 0값이 할당됩니다.
  */
-enum WeekDay {
+enum WeekDayPrimitive {
   mon,
   tue,
   wed
 }
-const day: WeekDay = WeekDay.mon;
+const day: WeekDayPrimitive = WeekDayPrimitive.mon;
 console.log(day);
 
 /**
